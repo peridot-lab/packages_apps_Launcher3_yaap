@@ -56,6 +56,10 @@
             android:summary="@string/pref_show_google_now_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="pref_trust_apps"
+            android:title="@string/trust_apps_manager_name" />
+
         <SwitchPreferenceCompat
             android:key="pref_desktop_show_labels"
             android:title="@string/desktop_show_labels"
